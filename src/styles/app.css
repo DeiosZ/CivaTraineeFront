@@ -1,0 +1,135 @@
+/* CONTENEDOR */
+.container {
+  padding: 20px 40px;
+}
+
+/* ================= TABLA ================= */
+
+.table-responsive {
+  margin: 20px 0px;
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg);
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.table thead {
+  background: var(--accent);
+  color: white;
+}
+
+.table tbody tr:hover {
+  background: var(--accent-bg);
+}
+
+/* ================= BOTONES ================= */
+
+.btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* PRIMARY */
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+.btn-primary:hover {
+  background: #6d28d9;
+}
+
+/* SECONDARY */
+.btn-secondary {
+  background: #64748b;
+  color: white;
+}
+.btn-secondary:hover {
+  background: #475569;
+}
+
+/* OUTLINE */
+.btn-outline-primary {
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+}
+.btn-outline-primary:hover {
+  background: var(--accent);
+  color: white;
+}
+
+/* ================= INPUT ================= */
+
+.form-control {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.form-control:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* ================= BADGES ================= */
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.bg-success {
+  background: #22c55e;
+  color: white;
+}
+
+.bg-danger {
+  background: #ef4444;
+  color: white;
+}
+
+/* ================= ALERTAS ================= */
+
+.alert {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.alert-danger {
+  background: rgba(239,68,68,0.1);
+  color: #ef4444;
+}
+
+/* ================= PAGINACION ================= */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* ================= LOADING ================= */
+
+.loading {
+  text-align: center;
+  padding: 40px;
+}
